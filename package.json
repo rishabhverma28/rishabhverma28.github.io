@@ -1,0 +1,23 @@
+{
+  "name": "rishabhverma28.github.io",
+  "version": "0.0.1",
+  "description": "Rishabh Verma's Website",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabhverma28/rishabhverma28.github.io.git"
+  },
+  "author": "Rishabh Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishabhverma28/rishabhverma28.github.io/issues"
+  },
+  "homepage": "https://github.com/rishabhverma28/rishabhverma28.github.io#readme",
+  "devDependencies": {
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
