@@ -211,7 +211,7 @@ class Hero extends Component{
             <div className = "site-hero">
                 <CompleteSvg/>
                 <CompleteSvg/>
-                <div className = "hero-welcome">Welcome.</div>
+                <div className = "hero-welcome"><span className="hero-welcome-sp">Welcome.</span></div>
                 <div className = "hero-pipe"></div>
                 <CompleteSvg/>
                 <CompleteSvg/>
@@ -247,8 +247,10 @@ class TimelineB extends Component{
         return(
             // "HI"
             <div className="bar-container">
-                <div className="year">{this.props.data.year}</div>
-                <div className="time-desc">{this.props.data.description}</div>
+                <div className="arrow">
+                    <div className="year">{this.props.data.year}</div>
+                    <div className="time-desc">{this.props.data.description}</div>
+                </div>
             </div>
         )
     }
@@ -273,7 +275,7 @@ class AboutMe extends Component{
 
         return(
             <section className = "about-me" id = "about-me">
-                <div className="section-header">About Me</div>
+                <div className="section-header">About Me</div><span></span>
                 <div className="about-me-wrapper clearfix">
                     <Description description={dict.aboutMe[1].description}/>                
                     <Picture srcImg={dict.aboutMe[0].imagesrc}/>
@@ -306,11 +308,11 @@ class App extends Component {
                 <Hero />
                 <AboutMe  />
                 <section className="technologies">
-                    <div className="section-header" id="tech-header">Technologies</div>
-                    <BarChart data={dict.technologies} size={[300,300]} />
+                    <div className="section-header" id="tech-header">Technologies</div><span></span>
+                    <BarChart data={dict.technologies} size={[400,400]} />
                 </section>
                 <section className="contact-me" id="contact-me">
-                    <div className="section-header">Contact Me</div>
+                    <div className="section-header">Contact Me</div><span></span>
                     <ContactMe data= {dict.contactMe}/>
                 </section>
             </div>
