@@ -20,7 +20,7 @@ class LogoImg extends Component {
     render(){
         return (
             <div className = "site-logo">
-                <img src = {LogoImage} className = "site-logo-img"/>
+                <a href="/"><img src = {LogoImage} className = "site-logo-img"/></a>
             </div>
             )
     }
@@ -209,12 +209,12 @@ class Hero extends Component{
         return (
             
             <div className = "site-hero">
-                <CompleteSvg/>
-                <CompleteSvg/>
+                {/* <CompleteSvg/> */}
+                {/* <CompleteSvg/> */}
                 <div className = "hero-welcome"><span className="hero-welcome-sp">Welcome.</span></div>
                 <div className = "hero-pipe"></div>
-                <CompleteSvg/>
-                <CompleteSvg/>
+                {/* <CompleteSvg/> */}
+                {/* <CompleteSvg/> */}
             </div>
             
             )
