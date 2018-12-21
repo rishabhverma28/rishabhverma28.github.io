@@ -5,7 +5,7 @@
 }
 
 .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 15s linear;
     height: 80px;
 }
 
@@ -176,8 +176,14 @@ body {
     /*text-align: center;*/
     /*flex-direction: column;*/
     height: 90%;
-    background: #7159E0;
+    /* background: #7159E0; */
     position: relative;
+    color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
     /* border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     -webkit-box-shadow: 0px 75px 140px -38px rgba(219,215,219,1);
@@ -215,6 +221,7 @@ box-shadow: 0px 75px 140px -38px rgba(219,215,219,1); */
     position: absolute;
     bottom: 15%;
     left: 15%;
+    font-size: 40px;
 }
 
 .hero-pipe {
@@ -234,7 +241,7 @@ box-shadow: 0px 75px 140px -38px rgba(219,215,219,1); */
 
 .grouped-svg {
     /*transform: translateY(150px);*/
-    animation: up-down 10s ease infinite;
+    animation: up-down 15s ease infinite;
     /*animation-delay: 3s;*/
 }
 
@@ -487,7 +494,38 @@ box-shadow: 0px 75px 140px -38px rgba(219,215,219,1); */
 }
 .hero-welcome-sp{
     color: #49c5b6;
+    background: linear-gradient(45deg, #23D5AB, #23A6D5,  #E73C7E, #EE7752);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: GradientReverse 15s ease infinite;
+	-moz-animation: GradientReverse 15s ease infinite;
+	animation: GradientReverse 15s ease infinite;
+    background-size: 400% 400%;
 }
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes GradientReverse {
+	0% {
+		background-position: 100% 50%
+	}
+	50% {
+		background-position: 0% 50%
+	}
+	100% {
+		background-position: 100% 50%
+	}
+}
+
 /* .hero-welcome-sp:after{
     content:"Welcome.";
     position: absolute;
