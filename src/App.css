@@ -64,9 +64,6 @@ body {
 
 .aside-bar {
     width: 100%;
-    height: 100px;
-    position: absolute;
-    /* background-color: white; */
 }
 
 .menu-items {
@@ -100,7 +97,7 @@ body {
     width: 100%;
     transform: translateY(-100%);
     background-color: #fff;
-    height: 100%;
+    /* height: 100%; */
     border-right: 2px solid #000;
     border-width: 5px;
     z-index: 10;
@@ -110,9 +107,10 @@ body {
     font-size: 35px;
     z-index: 50;
     padding: 13px 15px;
-    width: 25%;
+    /* width: 25%; */
     display: inline-block;
     color: #fff;
+    cursor: pointer;
 }
 
 .trigram-icon:before {
@@ -125,9 +123,6 @@ body {
 
 .true {
     position: absolute;
-    /* display: none; */
-    /* transition: opacity 2s ease-out; */
-    /* opacity: 0; */
     animation: slide-in 2s forwards;
     color: #000;
     
@@ -135,13 +130,6 @@ body {
 .show-hide .true{
     border-bottom: 5px solid black;
 }
-
-/* .false { */
-    /* opacity: 1;
-    transition: opacity 2s ease-out;
-    display: block; */
-    /* animation: slide-out 2s forwards; */
-/* } */
 
 @keyframes slide-in {
     100% {
@@ -469,9 +457,10 @@ box-shadow: 0px 75px 140px -38px rgba(219,215,219,1); */
     border-radius: 50%;
     height:32px;
     transition: all .2s ease-in-out;
+    margin: 10px;
 }
 .social:hover{
-    transform: scale(1.1);
+    transform: scale(1.25);
 }
 .social img{
     width:25px;
@@ -549,6 +538,27 @@ box-shadow: 0px 75px 140px -38px rgba(219,215,219,1); */
     color: white;
 }
 
+.email-me{
+    margin-top: 10px; 
+    padding: 10px;
+    display: inline-flex;
+    background: #cd5c5c;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid black;
+}
+
+.email-me > img {
+    padding-right: 10px;
+}
+
+.email-me:hover{
+    box-shadow: inset 0 0 0 2px #53a7ea;
+}
+.availability{
+    margin: 15px;
+}
+
 @media only screen 
   and (min-width: 768px)  {
     .hero-welcome{
@@ -568,9 +578,7 @@ box-shadow: 0px 75px 140px -38px rgba(219,215,219,1); */
         font-size: 24px;
     
     }
-    .aside-bar {
-        height: 200px;
-    }
+
     .site-logo {
         width: 10%;
     }
@@ -588,6 +596,9 @@ box-shadow: 0px 75px 140px -38px rgba(219,215,219,1); */
     }
     .section-header +span{
         top: 70px;
+    }
+    .social{
+        margin: 35px;
     }
 }
 

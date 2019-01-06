@@ -2,15 +2,23 @@
 	"menuItems":[
 		{
 			"name":"About Me",
-			"link": "#about-me"
+			"link": "/#about-me"
 		},
 		{
 			"name":"Technologies",
-			"link": "#tech-header"
+			"link": "/#tech-header"
+		},
+		{
+			"name": "Resumé",
+			"link": "/resume"
 		},
 		{
 			"name":"Contact Me",
-			"link": "#contact-me"
+			"link": "contactMe"
+		},
+		{
+			"name":"Portfolio",
+			"link": "portfolio"
 		}
 	],
 	"aboutMe":[
@@ -94,6 +102,7 @@
 			"imageSrc": "./linkedin.svg",
 			"name":"linkedin"
 		}
-	]
+	],
+	"availability": true
 
 }
