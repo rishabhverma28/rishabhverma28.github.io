@@ -4,6 +4,7 @@ import LogoImage from './gent.svg';
 import dict from './data.json'
 import './App.css';
 import BarChart from './BarChart'
+import { ContactMe } from './ContactMe';
 
 class MyDiv extends Component{
     render(){
@@ -165,6 +166,8 @@ class NavBar extends Component{
     }
 }
 
+
+
 class CircleSvg extends Component{
     render(){
         return(
@@ -203,40 +206,59 @@ class CompleteSvg extends Component{
     }
 } 
 
-class Hero extends Component{
-    render() {
-        console.log(dict)
-        return (
+// class Hero extends Component{
+//     render() {
+//         console.log(dict)
+//         return (
             
-            <div className = "site-hero">
-                {/* <CompleteSvg/> */}
-                {/* <CompleteSvg/> */}
-                <div className = "hero-welcome"><span className="hero-welcome-sp">Welcome.</span></div>
-                <div className = "hero-pipe"></div>
-                {/* <CompleteSvg/> */}
-                {/* <CompleteSvg/> */}
-            </div>
+//             <div className = "site-hero">
+//                 {/* <CompleteSvg/> */}
+//                 {/* <CompleteSvg/> */}
+//                 <div className = "hero-welcome"><span className="hero-welcome-sp">Welcome.</span></div>
+//                 <div className = "hero-pipe"></div>
+//                 {/* <CompleteSvg/> */}
+//                 {/* <CompleteSvg/> */}
+//             </div>
             
-            )
-    }
-}
+//             )
+//     }
+// }
 
-class Picture extends Component{
-    render(){
-        return (
-            <img src={require(`${this.props.srcImg}`)}/>   
-        )
-    }
-}
+const Hero = props =>(
+    <div className = "site-hero">
+        {/* <CompleteSvg/> */}
+        {/* <CompleteSvg/> */}
+        <div className = "hero-welcome"><span className="hero-welcome-sp">Welcome.</span></div>
+        <div className = "hero-pipe"></div>
+        {/* <CompleteSvg/> */}
+        {/* <CompleteSvg/> */}
+    </div>
+);
 
-class Description extends Component{
-    render(){
-        console.log(this.props)
-        return(
-            <div className="description">{this.props.description}</div>
-        )
-    }
-}
+// class Picture extends Component{
+//     render(){
+//         return (
+//             <img src={require(`${this.props.srcImg}`)}/>   
+//         )
+//     }
+// }
+
+const Picture = props =>(
+    <img src={require(`${props.srcImg}`)}/>
+);
+
+// class Description extends Component{
+//     render(){
+//         console.log(this.props)
+//         return(
+//             <div className="description">{this.props.description}</div>
+//         )
+//     }
+// }
+
+const Description = props =>(
+    <div className="description">{props.description}</div>
+);
 
 class TimelineB extends Component{
     // constructor(props){
@@ -288,33 +310,21 @@ class AboutMe extends Component{
     }
 }
 
-class ContactMe extends Component{
-    render(){
-
-        return this.props.data.map((comp)=>{
-            console.log(comp);
-            return (<div className={`social ${comp.name}`}>
-                    <a href={comp.link} target="_blank"><img src={require(`${comp.imageSrc}`)}/></a>
-                </div>)
-        })
-    }
-}
-
 class App extends Component {
     render(){
         return (
             <div className="root">
-                <NavBar/>
+                {/* <NavBar/> */}
                 <Hero />
                 <AboutMe  />
                 <section className="technologies">
                     <div className="section-header" id="tech-header">Technologies</div><span></span>
                     <BarChart data={dict.technologies} size={[400,400]} />
                 </section>
-                <section className="contact-me" id="contact-me">
+                {/* <section className="contact-me" id="contact-me">
                     <div className="section-header">Contact Me</div><span></span>
                     <ContactMe data= {dict.contactMe}/>
-                </section>
+                </section> */}
             </div>
             )
     }

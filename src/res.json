@@ -1,0 +1,32 @@
+{
+    "items":[
+        {
+            "heading": "Name & Contact",
+            "description": "Name: Rishabh Verma Contact: rishabh280693@gmail.com"
+        },
+        {
+            "heading": "Education",
+            "description": "<ul><li><bold>Masters in Information Technology, University of New South Wales<\/bold><span class=\"duration\"><i>July 2017 to present</i></span><\/li><li><bold>B.E. (First Class with Distinction) in Electronics and Communication Engineering <\/bold><span class=\"duration\"><i>September 2011 to May 2015</i></span><\/li><\/ul>"
+        },
+        {
+            "heading": "Work Experience",
+            "description": "<ul><li><bold>SapientNitro, Gurgaon, India</bold><span class=\"duration\"><i>June 2015 to June 2017</i></span><div class=\"proj-desc\">SapientNitro, a subsidiary of Sapient Corporation with its headquarters in Boston, provides a combination of creative, brand and technology expertise results in one global team collaborating across disciplines, perspectives and continents to create game-changing success for its clients. Responsible for implementing a custom framework based on Backbone JS and enabling other projects in Sapient to use it.</div></li></ul>"
+        },
+        {
+            "heading": "Academic Projects",
+            "description": "<ul><li><bold>Soil Moisture Sensor based Drip Irrigation System for Mulberry Plants</bold><span class=\"duration\"><i>Sept 2014 to Dec 2014</i></span><div class=\"proj-desc\">Interfacing the Arduino board with the soil moisture sensor and displaying the moisture content on an LCD, determining different moisture levels in the soil and sending an SMS to the user in case of low moisture content.</div></li><li><bold>Development of an ECG Monitoring System</bold><span class=\"duration\"><i>Jan 2015 to May 2015</i></span><div class=\"proj-desc\">Designed an ECG Monitoring System to monitor the heart rate, remove the noises present in the ECG Signal and output the Signal on MATLAB.</li></ul>"
+        },
+        {
+            "heading": "Related Coursework",
+            "description": "Internet Design – HTML, CSS, JavaScript, Adobe Experience Manager (AEM)"
+        },
+        {
+            "heading": "Skills",
+            "description": "HTML, CSS, JavaScript, C, C++, Assembly Language"
+        },
+        {
+            "heading": "Extra-Cirricular & Hobbies",
+            "description": "<ul><li>Organized a Paper Drive to collect newspapers to raise awareness about recycling in areas surrounding the college in association with the Rotary Club of RV College of Engineering.</li><li>Organized an event in the College Festival (8th Mile) in 2014.</li><li>Volunteered at several social events  in the college.</li><li>Oil Painting, Watercolor Painting. Reading Books. Playing Chess.</li></ul>"
+        }
+    ]
+}
