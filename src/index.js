@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
+import {HashRouter, BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Carousel from './Resume';
 import registerServiceWorker from './registerServiceWorker';
 import LogoImage from './gent.svg';
@@ -87,12 +87,12 @@ const routing = (
     
         <div className="root">
             <NavBar/>
-            <Router basename={process.env.PUBLIC_URL}>
+            <Router>
             <Switch>
                 <Route exact path = "/" component = {App}></Route>
-                <Route path = {`${process.env.PUBLIC_URL}/resume`} component={Carousel}></Route>
-                <Route path = {`${process.env.PUBLIC_URL}/portfolio`} component={Portfolio}></Route>
-                <Route path = {`${process.env.PUBLIC_URL}/contactMe`} component={ContactMe}></Route>
+                <Route path = "/resume" component={Carousel}></Route>
+                <Route path = "/portfolio" component={Portfolio}></Route>
+                <Route path = "/contactMe" component={ContactMe}></Route>
             </Switch>
             </Router>
         </div>
