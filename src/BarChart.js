@@ -13,9 +13,9 @@ class BarChart extends Component {
    componentDidMount() {
       this.createBarChart()
    }
-   componentDidUpdate() {
-      this.createBarChart()
-   }
+   // componentDidUpdate() {
+   //    this.createBarChart()
+   // }
    createBarChart() {
       const margin = {top:20, right:20, bottom:20, left:50}
       const width = this.props.size[0]- margin.left - margin.right
@@ -49,11 +49,6 @@ class BarChart extends Component {
       .call(axisBottom(xScale))
       .attr('transform', 'translate(0,'+ height +')')
 
-   // svg
-   //    .selectAll('rect')
-   //    .data(this.props.data)
-   //    .exit()
-   //    .remove()
    console.log("ffff",yScale.bandwidth())
    svg
       .selectAll('rect')
@@ -63,10 +58,6 @@ class BarChart extends Component {
       .attr('x', 0)
       .attr('y', d => yScale(d.name))
       .attr('height', d => yScale.bandwidth())
-      // .attr('margin','5px')
-      // .attr("width", 0)
-      // .transition()
-      // .duration(1500)
       .attr('width', d=> xScale(d.value))
 svg
       .selectAll("text.label")

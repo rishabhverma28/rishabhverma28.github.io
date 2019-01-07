@@ -30,7 +30,7 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-.root {
+.root, .root-main {
     height: 100%;
     width: 100%;
 }

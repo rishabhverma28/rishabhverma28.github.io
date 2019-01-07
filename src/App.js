@@ -265,7 +265,7 @@ class TimelineB extends Component{
     //     super(props)
     // }
     render(){
-        console.log(this.props.data.year);
+        // console.log(this.props.data.year);
         return(
             // "HI"
             <div className="bar-container">
