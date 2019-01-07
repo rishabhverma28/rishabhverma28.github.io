@@ -90,9 +90,9 @@ const routing = (
             <Router basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route exact path = "/" component = {App}></Route>
-                <Route path = "/resume" component={Carousel}></Route>
-                <Route path = "/portfolio" component={Portfolio}></Route>
-                <Route path = "/contactMe" component={ContactMe}></Route>
+                <Route path = {`${process.env.PUBLIC_URL}/resume`} component={Carousel}></Route>
+                <Route path = {`${process.env.PUBLIC_URL}/portfolio`} component={Portfolio}></Route>
+                <Route path = {`${process.env.PUBLIC_URL}/contactMe`} component={ContactMe}></Route>
             </Switch>
             </Router>
         </div>
