@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import {HashRouter, BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import Carousel from './Resume';
 import registerServiceWorker from './registerServiceWorker';
 import LogoImage from './gent.svg';
@@ -85,9 +86,9 @@ const NavBar = () => (
 
 const routing = (
     
-        <div className="root">
+        <div className="root-main">
             <NavBar/>
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route exact path = "/" component = {App}></Route>
                 <Route path = "/resume" component={Carousel}></Route>
