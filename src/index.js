@@ -84,17 +84,19 @@ const NavBar = () => (
 );
 
 const routing = (
-    <Router>
+    
         <div className="root">
             <NavBar/>
+            <Router basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route exact path = "/" component = {App}></Route>
                 <Route path = "/resume" component={Carousel}></Route>
                 <Route path = "/portfolio" component={Portfolio}></Route>
                 <Route path = "/contactMe" component={ContactMe}></Route>
             </Switch>
+            </Router>
         </div>
-    </Router>
+    
 )
 ReactDOM.render(routing, document.getElementById('site-body'));
 
