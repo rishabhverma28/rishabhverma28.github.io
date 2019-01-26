@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import dict from './data.json'
-import mailImg from './email.svg'
+import mailImg from './imgs/email.svg'
 
 class SocialMedia extends Component {
     render() {

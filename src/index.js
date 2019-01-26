@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import { HashRouter } from 'react-router-dom'
 import Carousel from './Resume';
 import registerServiceWorker from './registerServiceWorker';
-import LogoImage from './gent.svg';
+import LogoImage from './imgs/gent.svg';
 import dict from './data.json'
 import ContactMe from './ContactMe';
 import Portfolio from './Portfolio';
@@ -59,7 +59,9 @@ class AsideMenu extends Component {
         // }
     }
     render(){
-        const style = {display: this.state.toggle ? 'block' : 'none' }
+        const style = {
+            display: this.state.toggle ? 'block' : 'none'
+        }
         const tt = this.state.toggle
         // const name = {tt? "on":null}
         return(

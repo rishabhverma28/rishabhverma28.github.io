@@ -1,0 +1,21 @@
+{
+    "inputField": {
+        "inputType": "text",
+        "autofocus": true,
+        "disabled": false,
+        "readonly": false,
+        "id": "inputId",
+        "value": "",
+        "required": true,
+        "labelText": "LabelText",
+        "class": ""
+    },
+    "modalButton": {
+        "text": "Click Me for Modal!",
+        "modalContent": "This is the Modal Content"
+    },
+    "banner": {
+        "message": "This is to be displayed inside the banner"
+    }
+
+}

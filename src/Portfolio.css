@@ -1,0 +1,15 @@
+.portfolio-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio-container > span {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.portfolio-container .heading {
+    margin: 40px 0 20px;
+    font-size: 30px;
+}

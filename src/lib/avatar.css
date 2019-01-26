@@ -1,0 +1,10 @@
+.avatar-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-color: darkgrey;
+    background-size: 75%;
+    margin: 0 auto;
+}
