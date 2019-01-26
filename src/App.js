@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import LogoImage from './gent.svg';
+import logo from './imgs/logo.svg';
+import LogoImage from './imgs/gent.svg';
 import dict from './data.json'
 import './App.css';
 import BarChart from './BarChart'

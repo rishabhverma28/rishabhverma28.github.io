@@ -1,0 +1,4 @@
+.banner{
+    max-height: 52px;
+    transition: max-height 3s ease-in-out;
+}

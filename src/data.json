@@ -14,16 +14,16 @@
 		},
 		{
 			"name":"Contact Me",
-			"link": "contactMe"
+			"link": "/contactMe"
 		},
 		{
 			"name":"Portfolio",
-			"link": "portfolio"
+			"link": "/portfolio"
 		}
 	],
 	"aboutMe":[
 		
-			{"imagesrc":"./rv.jpg"},
+			{"imagesrc":"./imgs/rv.jpg"},
 			
 			{"description":"Hi! I'm Rishabh Verma. First of all, thanks for visiting my website. I have 2 years of experience in website development at Sapient, Bangalore and Gurgaon, India. I'm currently doing my Master's in IT course at UNSW, Sydney."}
 		
@@ -79,27 +79,27 @@
 	"contactMe":[
 		{
 			"link":"https://www.facebook.com/rishabh.verma.35",
-			"imageSrc": "./facebook.svg",
+			"imageSrc": "./imgs/facebook.svg",
 			"name":"fb"
 		},
 		{
 			"link":"https://www.twitter.com/rish2806",
-			"imageSrc": "./twitter.svg",
+			"imageSrc": "./imgs/twitter.svg",
 			"name":"twitter"
 		},
 		{
 			"link":"https://www.instagram.com/rishver",
-			"imageSrc": "./instagram.svg",
+			"imageSrc": "./imgs/instagram.svg",
 			"name":"instagram"
 		},
 		{
 			"link":"https://github.com/rishabhverma28",
-			"imageSrc": "./github.svg",
+			"imageSrc": "./imgs/github.svg",
 			"name":"github"
 		},
 		{
 			"link":"https://www.linkedin.com/in/rishabhverma28",
-			"imageSrc": "./linkedin.svg",
+			"imageSrc": "./imgs/linkedin.svg",
 			"name":"linkedin"
 		}
 	],

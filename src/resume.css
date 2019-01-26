@@ -1,172 +1,176 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
-
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text");
 
 .carousel {
-    height: calc(90% - 20px);
-    background: #f1f1d4;
-    position: relative;
-    border: 10px solid #8d6e63;
-    min-height: 550px;
+  height: calc(90% - 20px);
+  background: #f1f1d4;
+  position: relative;
+  border: 10px solid #8d6e63;
+  min-height: 550px;
 }
 
-.carousel button{
-    z-index: 10;
+.carousel button {
+  z-index: 10;
 }
 
 .slide {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .res-head {
-    /* width: 49%; */
-    height: 100%;
-    /* display: inline-block; */
-    font-family: "Playfair Display";
-    /* border-image: linear-gradient(to right, #b861c6 0%,#ffc7c7 100%);
+  /* width: 49%; */
+  height: 100%;
+  /* display: inline-block; */
+  font-family: "Playfair Display";
+  /* border-image: linear-gradient(to right, #b861c6 0%,#ffc7c7 100%);
     border-image-slice: 1;
     border-width: 3px; */
-    /* border: 1px solid black; */
-    background: #F0C27B;
-    /* background: -webkit-linear-gradient(to right, #4B1248, #F0C27B); */
-    background: linear-gradient(to right, transparent 80%,rgba(0,0,0,0.2) 100%,rgba(0,0,0,0.5) 100%);
-    border: 1px solid black;
-    display: grid;
-    
+  /* border: 1px solid black; */
+  background: #f0c27b;
+  /* background: -webkit-linear-gradient(to right, #4B1248, #F0C27B); */
+  background: linear-gradient(
+    to right,
+    transparent 80%,
+    rgba(0, 0, 0, 0.2) 100%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  border: 1px solid black;
+  display: grid;
 }
 
-
-
 .res-description {
-    font-family: "Crimson Text";
-    height: 100%;
-    display: grid;
-    border: 1px solid black;
-    background: #F0C27B;
-    background: linear-gradient(to left, transparent 80%,rgba(0,0,0,0.2) 100%,rgba(0,0,0,0.5) 100%);
-
+  font-family: "Crimson Text";
+  height: 100%;
+  display: grid;
+  border: 1px solid black;
+  background: #f0c27b;
+  background: linear-gradient(
+    to left,
+    transparent 80%,
+    rgba(0, 0, 0, 0.2) 100%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
 }
 
 .res-description > div {
-    font-size: 2.75vw;
-    align-self: center;
-    justify-self: center;
-    padding: 0 15%;
-    
+  font-size: 2.75vw;
+  align-self: center;
+  justify-self: center;
+  padding: 0 15%;
 }
 
 .res-description ul {
-    list-style-type: square;
-    padding: 0;
+  list-style-type: square;
+  padding: 0;
 }
 
 .arrow.left {
-    position: absolute;
-    top: 50%;
-    background: none;
-	color: inherit;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-    outline: inherit;
-    box-shadow: 0px 0px 15px 3px grey;
+  position: absolute;
+  top: 50%;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  box-shadow: 0px 0px 15px 3px grey;
 }
 
-.arrow.left:before{
-    content: "\2190";
-    font-size: 25px;
+.arrow.left:before {
+  content: "\2190";
+  font-size: 25px;
 }
 
-.arrow.right{
-    position: absolute;
-    top: 50%;
-    content: "";
-    right: 0;
-    background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-    outline: inherit;
-    box-shadow: 0px 0px 15px 3px grey;
+.arrow.right {
+  position: absolute;
+  top: 50%;
+  content: "";
+  right: 0;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  box-shadow: 0px 0px 15px 3px grey;
 }
 
-.arrow.right:after{
-    content: "\2192";
-    font-size: 25px;
-    /* padding: 20px; */
+.arrow.right:after {
+  content: "\2192";
+  font-size: 25px;
+  /* padding: 20px; */
 }
 
-.res-head .header{
-    font-size: 5vw;
-    align-self: center;
-    justify-self: center;
-    padding: 10% 10% 8%;
-    text-align: center;
-    position: relative;
+.res-head .header {
+  font-size: 5vw;
+  align-self: center;
+  justify-self: center;
+  padding: 10% 10% 8%;
+  text-align: center;
+  position: relative;
 }
 
 .res-head .header:after {
-    content: " ";
-    position: absolute;
-    border: solid 0 #000;
-    border-width: 0.03em 0px;
-    height: 2px;
-    width: 75%;
-    bottom: 9px;
-    left: 13%;
+  content: " ";
+  position: absolute;
+  border: solid 0 #000;
+  border-width: 0.03em 0px;
+  height: 2px;
+  width: 75%;
+  bottom: 9px;
+  left: 13%;
 }
 
 .res-description ul li:not(:last-child) {
-    margin-bottom: 2%;
+  margin-bottom: 2%;
 }
 
 .res-description ul li {
-    position: relative;
+  position: relative;
 }
 
-.res-description .duration{
-    display: none;
-    position: absolute;
-    border: 1px solid black;
-    right: 41%;
-    top: -45px;
-    background: rgba(0,0,0,1);
-    color: #fff;
-    padding: 10px;
-    font-size: 1vw;
+.res-description .duration {
+  display: none;
+  position: absolute;
+  border: 1px solid black;
+  right: 41%;
+  top: -45px;
+  background: rgba(0, 0, 0, 1);
+  color: #fff;
+  padding: 10px;
+  font-size: 1vw;
 }
 
-.res-description .duration:before{
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-width: 10px;
-    border-style: solid;
-    border-color: #000 transparent transparent transparent;
-    top: 40px;
-    right: 50%;
+.res-description .duration:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #000 transparent transparent transparent;
+  top: 40px;
+  right: 50%;
 }
-.res-description ul li bold:hover +.duration {
-    display: block;
+.res-description ul li bold:hover + .duration {
+  display: block;
 }
-@media only screen and (min-width: 768px)  {
-    .res-description > div {
-        font-size: 1.75vw;
-    }
-    .res-head .header{
-        background-size: 0.355em;
-        padding: 10% 10% 3%;
-    }
-    .arrow.left:before{
-        padding: 20px;
-    }
-    .arrow.right:after{
-        padding: 20px;
-    }
+@media only screen and (min-width: 768px) {
+  .res-description > div {
+    font-size: 1.75vw;
+  }
+  .res-head .header {
+    background-size: 0.355em;
+    padding: 10% 10% 3%;
+  }
+  .arrow.left:before {
+    padding: 20px;
+  }
+  .arrow.right:after {
+    padding: 20px;
+  }
 }
-

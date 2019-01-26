@@ -126,7 +126,7 @@ class Carousel extends React.Component {
 
     nextSlide = () => {
         const lengthOfItems = res.items.length
-        console.log(parseInt(this.state.currentSlide +1))
+        // console.log(parseInt(this.state.currentSlide +1))
         if (this.state.currentSlide +1<lengthOfItems) {
             this.setState({
                 currentSlide: this.state.currentSlide +1
