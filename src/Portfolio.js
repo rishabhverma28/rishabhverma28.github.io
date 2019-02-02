@@ -3,7 +3,6 @@ import InputField from "./lib/input"
 import Modal from "./lib/modal"
 import Avatar from "./lib/avatar"
 import './Portfolio.css';
-import LogoImage from './imgs/gent.svg';
 import Banner from './lib/banner';
 
 class Portfolio extends Component {
@@ -16,6 +15,7 @@ class Portfolio extends Component {
                 <div className="heading">Modal</div>
                 <Modal/>
                 <div className="heading">Avatar</div>
+                {/* gender="male/female" prImage={LogoImage}*/}
                 <Avatar/>
                 <div className="heading">Banner</div>
                 <Banner/>
