@@ -1,16 +1,18 @@
 {
-  "main.css": "static/css/main.a77673db.css",
-  "main.css.map": "static/css/main.a77673db.css.map",
-  "main.js": "static/js/main.49966d6e.js",
-  "main.js.map": "static/js/main.49966d6e.js.map",
+  "main.css": "static/css/main.f55de9b7.css",
+  "main.css.map": "static/css/main.f55de9b7.css.map",
+  "main.js": "static/js/main.ae564e50.js",
+  "main.js.map": "static/js/main.ae564e50.js.map",
   "static/media/diamond.svg": "static/media/diamond.f5c9efaf.svg",
   "static/media/email.svg": "static/media/email.c66ee6f6.svg",
   "static/media/facebook.svg": "static/media/facebook.7f47d1e3.svg",
+  "static/media/female.svg": "static/media/female.0c304dbd.svg",
   "static/media/gent.svg": "static/media/gent.a12e251d.svg",
   "static/media/github.svg": "static/media/github.1bb02710.svg",
   "static/media/instagram.svg": "static/media/instagram.341a67c5.svg",
   "static/media/linkedin.svg": "static/media/linkedin.97ce31c8.svg",
   "static/media/logo.svg": "static/media/logo.cf76a746.svg",
+  "static/media/male.svg": "static/media/male.c310542b.svg",
   "static/media/rv.jpg": "static/media/rv.b0459fdd.jpg",
   "static/media/twitter.svg": "static/media/twitter.631cd566.svg"
 }
