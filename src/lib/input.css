@@ -1,11 +1,10 @@
 .input-field-input.text{
     /* position: relative; */
     margin-top: 16px;
-    padding: 5px;
+    padding: 5px 0 5px 5px;
     width: 100%;
     border: 1px solid black;
     border-radius: 5px;
-    font-size: 3vh;
     font-family: inherit;
     box-shadow: 1px 1px 5px #0a0a0a;
 }
@@ -24,15 +23,23 @@
     transform: translateY(5px);
     transition: transform 0.25s ease-in;
     padding: 0 5px;
-    font-size: 3vh;
 }
 
 /* .input-field-input */
 
 .inFocus {
     /* display: block; */
-    transform: translateY(-3vh);
+    transform: translateY(-1em);
     transition: transform 0.25s ease-in;
     opacity: 1;
     margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .input-field-input.text{
+        font-size: 1.5em;
+    }
+    .input-field-label {
+        font-size: 1.5em;
+    }
 }

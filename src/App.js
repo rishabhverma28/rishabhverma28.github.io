@@ -257,7 +257,7 @@ const Picture = props =>(
 // }
 
 const Description = props =>(
-    <div className="description">{props.description}</div>
+    <div className="description" dangerouslySetInnerHTML={{__html:props.description}}></div>
 );
 
 class TimelineB extends Component{

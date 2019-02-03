@@ -4,6 +4,8 @@ import Modal from "./lib/modal"
 import Avatar from "./lib/avatar"
 import './Portfolio.css';
 import Banner from './lib/banner';
+import AppDiv from './lib/appDiv'
+import reactCalcImg from './lib/calc.png'
 
 class Portfolio extends Component {
     render(){
@@ -19,6 +21,8 @@ class Portfolio extends Component {
                 <Avatar/>
                 <div className="heading">Banner</div>
                 <Banner/>
+                <div className="heading">These are some of the apps I've created. Have a look! 👀</div>
+                <AppDiv pointsTo = "http://www.rishverma.me/react-calc" appImage={reactCalcImg}/>
             </div>
         )
     }

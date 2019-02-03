@@ -1,4 +1,19 @@
-.banner{
-    max-height: 52px;
-    transition: max-height 3s ease-in-out;
+.banner {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.banner.alert {
+    background: #ffeba5;
+    border: 1px solid #ffcb0c;
+}
+
+.banner.error{
+    background: #ff9d9d;
+    border: 1px solid #ff3b3b;
+}
+.banner.message {
+    background: #c4c4ff;
+    border: 1px solid #4e4eff;
 }
