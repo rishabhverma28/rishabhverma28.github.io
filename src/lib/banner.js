@@ -18,14 +18,15 @@ class Banner extends Component {
     }
 
     render() {
+        // Different Types available: message, alert, warning 
         const messageToBeShown = this.state.bannerOpen?"Hide Banner":"Show Banner"
         return (
             <div>
                 <button onClick = {this.showHideBanner} className="portfolio-modal-button">{messageToBeShown}</button>
                 {
                     this.state.bannerOpen &&
-                    <div className="banner">
-                        {compConfig.banner.message}
+                    <div className={`banner ${compConfig.banner.messageType}`}>
+                        {compConfig.banner.message} 
                     </div>
                 
                 }

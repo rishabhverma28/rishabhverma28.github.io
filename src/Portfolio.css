@@ -1,5 +1,5 @@
 .portfolio-container {
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
 }
@@ -10,6 +10,19 @@
 }
 
 .portfolio-container .heading {
-    margin: 40px 0 20px;
-    font-size: 30px;
+    margin: 20px 0 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+@media only screen and (min-width: 768px) {
+    .portfolio-container .heading {
+        font-size: 30px;
+    }
+    .portfolio-container .heading {
+        margin: 40px 0 20px;
+    }
+    .portfolio-container {
+        width: 60%;
+    }
 }

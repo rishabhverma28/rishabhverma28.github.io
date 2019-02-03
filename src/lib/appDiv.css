@@ -1,0 +1,45 @@
+.app-div {
+    width: 100%;
+    display: inline-block;
+    /* margin: 15px; */
+}
+.app-div-anchor {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 35px 2px rgba(0,0,0,.2);
+}
+
+.app-div-anchor:hover {
+    box-shadow: 0 0 35px 2px rgba(0,0,0,.5);
+}
+
+.app-div-anchor:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.app-div-img {
+    width:100%;
+    height:100%;
+    border-bottom: 1px solid black;
+}
+
+.app-div-description {
+    padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .app-div {
+        width: 45%;
+        margin: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) {
+    .app-div {
+        width: 29%;
+    }
+}

@@ -15,6 +15,10 @@
         "modalContent": "This is the Modal Content"
     },
     "banner": {
-        "message": "This is to be displayed inside the banner"
+        "message": "This is to be displayed inside the banner",
+        "messageType": "message"
+    },
+    "appDiv": {
+        "textToBeDisplayed": "Simple Implementation of a Calculator using math.js library"
     }
 }
