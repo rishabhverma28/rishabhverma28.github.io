@@ -19,10 +19,17 @@ const LogoImg = () =>(
 
 
 class Menu extends Component{
+    constructor(props){
+        super(props);
+        // this.handleClick = this.handleClick.bind(this)
+    }
+    // handleClick(e) {
+    //     this.props.toggleState = !this.props.toggleState
+    // }
     render(props){
         const dataItems = this.props.dict.menuItems;
         const listItems = dataItems.map((item)=>
-                <li><a href = {item.link}>{item.name}</a></li>
+                <li ><a href = {item.link} onClick = {this.props.handleClick}>{item.name}</a></li>
             )
         return(
                 // <div className="menu-container">
@@ -41,9 +48,16 @@ class AsideMenu extends Component {
         this.handleClick = this.handleClick.bind(this);
     }
     handleClick(e){
+        if(e.target.nodeType ==="A"){
+            e.preventDefault()
+        }
         this.setState(state =>({
             toggle: !state.toggle
         }))
+        if(e.target.nodeType ==="A"){
+            window.location = e.target.href
+        }
+        // debugger
         // if(this.state.toggle){
         //     document.querySelector(".root").style.position = "static"
         //     document.querySelector(".site-hero").style.opacity = "1"
@@ -69,7 +83,7 @@ class AsideMenu extends Component {
                 {/* <div className = "menu"> */}
                     <div className = {`trigram-icon ${tt}`}  onClick ={this.handleClick}></div>
                     <div className = {`show-hide ${tt}`} style = {style}>
-                        <Menu dict = {dict}/>
+                        <Menu dict = {dict} handleClick = {this.handleClick}/>
                     </div>
                     
                 {/* </div> */}

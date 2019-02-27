@@ -39,7 +39,7 @@ class InputField extends Component {
         // console.log(this.nameValue.current.value,this.nameValue.current.checked, this.state.inFocus)
         return (
             <div className="input-field">
-                <label for={compConfig.inputField.id} className = {`input-field-label ${inFocus}`}>{compConfig.inputField.labelText}</label> 
+                <label htmlFor={compConfig.inputField.id} className = {`input-field-label ${inFocus}`}>{compConfig.inputField.labelText}</label> 
                 <input ref={this.nameValue} type={inputType} id = {compConfig.inputField.id}  className = {`input-field-input ${compConfig.inputField.inputType} ${compConfig.inputField.class}`} {...opts} onFocus = {this.addLabelClass} onBlur = {this.addLabelClass}></input>
             </div>
         )

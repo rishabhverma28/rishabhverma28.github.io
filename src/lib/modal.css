@@ -2,39 +2,6 @@
     /* text-align: center; */
     margin: 20px auto;
 }
-.portfolio-modal-button {
-    /* background: none; */
-    padding: 20px;
-    /* margin-top: 20px; */
-    /* text-align: center; */
-    /* margin: 20px auto; */
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0,0,0,.2);
-    font-size: 20px;
-    /* border: 1px solid black; */
-    background: none;
-    /* border-right: 10px solid black; */
-    /* border-bottom: 10px solid black; */
-    /* border-top: 10px solid transparent;
-    border-left: 10px solid transparent; */
-    /* box-shadow: 6px 6px 0px #007c82; */
-    position: relative;
-    outline: none;
-    border:none;
-    transition: box-shadow .2s ease-in-out;
-    font-family: inherit;
-    background:linear-gradient( to top right,#9ccc65 0%, #26c6da 50%);
-    box-shadow: 1px 1px 20px #26c6da;
-}
-
-.portfolio-modal-button:active {
-    /* border-right: 1px solid black; */
-    /* border-bottom: 1px solid black; */
-    box-shadow: 0px 0px 50px #26c6da;
-    top: 3px;
-    /* outline: none; */
-    /* border:none; */
-}
 
 .modal-container{
     position: fixed;
