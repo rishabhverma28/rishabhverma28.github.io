@@ -26,3 +26,24 @@
         width: 60%;
     }
 }
+
+.portfolio-button {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    font-size: 20px;
+    background: none;
+    position: relative;
+    outline: none;
+    border:none;
+    transition: box-shadow .2s ease-in-out;
+    font-family: inherit;
+    background:linear-gradient( to top right,#9ccc65 0%, #26c6da 50%);
+    box-shadow: 1px 1px 20px #26c6da;
+    cursor: pointer;
+}
+
+.portfolio-button:active {
+    box-shadow: 0px 0px 50px #26c6da;
+    top: 3px;
+}

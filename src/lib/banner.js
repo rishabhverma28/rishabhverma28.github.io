@@ -22,7 +22,7 @@ class Banner extends Component {
         const messageToBeShown = this.state.bannerOpen?"Hide Banner":"Show Banner"
         return (
             <div>
-                <button onClick = {this.showHideBanner} className="portfolio-modal-button">{messageToBeShown}</button>
+                <button onClick = {this.showHideBanner} className="portfolio-button">{messageToBeShown}</button>
                 {
                     this.state.bannerOpen &&
                     <div className={`banner ${compConfig.banner.messageType}`}>

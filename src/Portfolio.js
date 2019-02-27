@@ -6,6 +6,8 @@ import './Portfolio.css';
 import Banner from './lib/banner';
 import AppDiv from './lib/appDiv'
 import reactCalcImg from './lib/calc.png'
+import reactQuotesImg from './lib/quotes.png'
+import compConfig from './lib/compConfig.json'
 
 class Portfolio extends Component {
     render(){
@@ -22,7 +24,8 @@ class Portfolio extends Component {
                 <div className="heading">Banner</div>
                 <Banner/>
                 <div className="heading">These are some of the apps I've created. Have a look! 👀</div>
-                <AppDiv pointsTo = "http://www.rishverma.me/react-calc" appImage={reactCalcImg}/>
+                <AppDiv pointsTo = "http://www.rishverma.me/react-calc" appImage={reactCalcImg} textDisplayed = {compConfig.calc}/>
+                <AppDiv pointsTo = "http://www.rishverma.me/react-quotes" appImage={reactQuotesImg} textDisplayed = {compConfig.quotes}/>
             </div>
         )
     }

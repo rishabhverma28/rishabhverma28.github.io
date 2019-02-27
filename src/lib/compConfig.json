@@ -18,7 +18,10 @@
         "message": "This is to be displayed inside the banner",
         "messageType": "message"
     },
-    "appDiv": {
-        "textToBeDisplayed": "Simple Implementation of a Calculator using math.js library"
+    "calc": {
+        "text": "Simple Implementation of a Calculator using math.js library"
+    },
+    "quotes": {
+        "text": "Quotes Customizer and Generator built using Gatsby.js"
     }
 }

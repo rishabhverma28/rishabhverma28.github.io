@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.3786f055.css",
-  "main.css.map": "static/css/main.3786f055.css.map",
-  "main.js": "static/js/main.d907c488.js",
-  "main.js.map": "static/js/main.d907c488.js.map",
+  "main.css": "static/css/main.697bb46f.css",
+  "main.css.map": "static/css/main.697bb46f.css.map",
+  "main.js": "static/js/main.8a679cd9.js",
+  "main.js.map": "static/js/main.8a679cd9.js.map",
   "static/media/calc.png": "static/media/calc.34ee056a.png",
   "static/media/diamond.svg": "static/media/diamond.f5c9efaf.svg",
   "static/media/email.svg": "static/media/email.c66ee6f6.svg",
@@ -14,6 +14,7 @@
   "static/media/linkedin.svg": "static/media/linkedin.97ce31c8.svg",
   "static/media/logo.svg": "static/media/logo.cf76a746.svg",
   "static/media/male.svg": "static/media/male.c310542b.svg",
+  "static/media/quotes.png": "static/media/quotes.79f86b02.png",
   "static/media/rv.jpg": "static/media/rv.b0459fdd.jpg",
   "static/media/twitter.svg": "static/media/twitter.631cd566.svg"
 }
