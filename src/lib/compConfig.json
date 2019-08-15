@@ -23,5 +23,8 @@
     },
     "quotes": {
         "text": "Quotes Customizer and Generator built using Gatsby.js"
+    },
+    "motv": {
+        "text": "Get information on Movie and TV Shows using TMDB API"
     }
 }
