@@ -373,7 +373,7 @@ box-shadow: 0px 75px 140px -38px rgba(219,215,219,1); */
 .text-highlight {
     box-shadow: 0px 0px 0px 3px #ffff00;
     line-height: 1.5;
-    background-color: rgba(255,255,0,0.4);
+    background-color: rgba(255, 255, 0, 0.4);
     border-radius: 5px;
     margin: 0px 4px;
 }
@@ -417,9 +417,6 @@ box-shadow: 0px 75px 140px -38px rgba(219,215,219,1); */
     position: absolute;
     background: #9cd8c6;
 }
-/* .bar-container:hover{
-    transform: scale(1.1);
-} */
 .bar-container:nth-child(odd) {
     margin: 25px 55% 25px 0;
 }
@@ -495,6 +492,19 @@ box-shadow: 0px 75px 140px -38px rgba(219,215,219,1); */
     animation: GradientReverse 15s ease infinite;
     background-size: 400% 400%;
 }
+.hero-welcome-port-link {
+    font-size: 12px;
+    display: block;
+    width: fit-content;
+    margin-left: 5px;
+    background: #e9ebf8;
+    text-decoration: none;
+    padding: 10px;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 255, 0.2);
+    border-radius: 3px;
+    color: #094074;
+}
+
 @keyframes Gradient {
     0% {
         background-position: 0% 50%;
@@ -519,16 +529,9 @@ box-shadow: 0px 75px 140px -38px rgba(219,215,219,1); */
     }
 }
 
-/* .hero-welcome-sp:after{
-    content:"Welcome.";
-    position: absolute;
-    left:5px;
-    top:7px;
-    color:#ffffff;
-} */
-
 .time-desc {
     padding: 5px;
+    transition: all 0.2s;
 }
 
 .time-desc:hover {
@@ -575,6 +578,9 @@ box-shadow: 0px 75px 140px -38px rgba(219,215,219,1); */
     .hero-welcome {
         font-size: 45px;
     }
+    .hero-welcome-port-link {
+        font-size: 15px;
+    }
     .tech-header {
         font-size: 45px;
     }
@@ -615,6 +621,9 @@ box-shadow: 0px 75px 140px -38px rgba(219,215,219,1); */
 @media only screen and (min-width: 1025px) {
     .hero-welcome {
         font-size: 100px;
+    }
+    .hero-welcome-port-link {
+        font-size: 25px;
     }
     .tech-header {
         font-size: 60px;

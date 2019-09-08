@@ -1,28 +1,24 @@
 {
-    "items":[
+    "items": [
         {
             "heading": "Name & Contact",
-            "description": "Name: Rishabh Verma Contact: rishabh280693@gmail.com"
+            "description": "Name: Rishabh Verma Contact: rishabhverma.2806@gmail.com"
         },
         {
             "heading": "Education",
-            "description": "<ul><li><bold>Masters in Information Technology, University of New South Wales<\/bold><span class=\"duration\"><i>July 2017 to present</i></span><\/li><li><bold>B.E. (First Class with Distinction) in Electronics and Communication Engineering <\/bold><span class=\"duration\"><i>September 2011 to May 2015</i></span><\/li><\/ul>"
+            "description": "<ul><li><bold>Masters in Information Technology, University of New South Wales</bold><span class=\"duration\"><i>July 2017 to September 2019</i></span></li><li><bold>B.E. (First Class with Distinction) in Electronics and Communication Engineering </bold><span class=\"duration\"><i>September 2011 to May 2015</i></span></li></ul>"
         },
         {
             "heading": "Work Experience",
-            "description": "<ul><li><bold>SapientNitro, Gurgaon, India</bold><span class=\"duration\"><i>June 2015 to June 2017</i></span><div class=\"proj-desc\">SapientNitro, a subsidiary of Sapient Corporation with its headquarters in Boston, provides a combination of creative, brand and technology expertise results in one global team collaborating across disciplines, perspectives and continents to create game-changing success for its clients. Responsible for implementing a custom framework based on Backbone JS and enabling other projects in Sapient to use it.</div></li></ul>"
+            "description": "<ul><li><bold>SapientNitro, Gurgaon, India</bold><span class=\"duration\"><i>June 2015 to June 2017</i></span><div class=\"proj-desc\">Demonstrated the knowledge in Front End technologies by implementing and enhancing a custom framework based on BackboneJS that enabled other projects.</div></li></ul>"
         },
         {
             "heading": "Academic Projects",
-            "description": "<ul><li><bold>Soil Moisture Sensor based Drip Irrigation System for Mulberry Plants</bold><span class=\"duration\"><i>Sept 2014 to Dec 2014</i></span><div class=\"proj-desc\">Interfacing the Arduino board with the soil moisture sensor and displaying the moisture content on an LCD, determining different moisture levels in the soil and sending an SMS to the user in case of low moisture content.</div></li><li><bold>Development of an ECG Monitoring System</bold><span class=\"duration\"><i>Jan 2015 to May 2015</i></span><div class=\"proj-desc\">Designed an ECG Monitoring System to monitor the heart rate, remove the noises present in the ECG Signal and output the Signal on MATLAB.</li></ul>"
-        },
-        {
-            "heading": "Related Coursework",
-            "description": "Internet Design – HTML, CSS, JavaScript, Adobe Experience Manager (AEM)"
+            "description": "<ul><li><bold>Course Recommender System</bold><span class=\"duration\"><i>May 2019 to July 2019</i></span><div class=\"proj-desc\">Designed and developed the Front End and the Back End APIs for a Course Recommender System using real data from UNSW.</div></li><li><bold>Quotes Generator</bold><span class=\"duration\"><i>December 2018 to January 2019</i></span><div class=\"proj-desc\">Created a web app that calls APIs to generate downloadable backgrounds that feature quotes.</li></ul>"
         },
         {
             "heading": "Skills",
-            "description": "HTML, CSS, JavaScript, C, C++, Assembly Language"
+            "description": "HTML, CSS, JavaScript, SQL, ReactJS, Responsive Design, Adobe Photoshop, Sass, jQuery, Bootstrap, Git, D3, Python"
         },
         {
             "heading": "Extra-Cirricular & Hobbies",

@@ -1,16 +1,36 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import "./appDiv.css";
 
 class AppDiv extends Component {
     render() {
-        return(
+        return (
             <div className="app-div">
-                <a className="app-div-anchor" href = {this.props.pointsTo} target="_blank">
-                    <img className="app-div-img" src={this.props.appImage} />
-                    <div className="app-div-description">{this.props.textDisplayed.text}</div>
+                <div className="app-div-anchor" target="_blank">
+                    <img
+                        className="app-div-img"
+                        src={this.props.appImage}
+                        alt="app screenshot"
+                    />
+                    <div className="app-div-description">
+                        {this.props.textDisplayed.text}
+                    </div>
+                </div>
+                <a
+                    href={this.props.pointsTo}
+                    className="app-div-link"
+                    target="_blank"
+                >
+                    View on Site
+                </a>
+                <a
+                    href={this.props.githubLink}
+                    className="app-div-link"
+                    target="_blank"
+                >
+                    View code on GitHub
                 </a>
             </div>
-        )
+        );
     }
 }
 
