@@ -1,107 +1,111 @@
 {
-    "menuItems": [
-        {
-            "name": "About Me",
-            "link": "/#about-me"
-        },
-        {
-            "name": "Technologies",
-            "link": "/#tech-header"
-        },
-        {
-            "name": "Resumé",
-            "link": "/resume"
-        },
-        {
-            "name": "Contact Me",
-            "link": "/contactMe"
-        },
-        {
-            "name": "Portfolio",
-            "link": "/portfolio"
-        }
-    ],
-    "aboutMe": [
-        { "imagesrc": "./imgs/rv.jpg" },
+  "menuItems": [
+    {
+      "name": "About Me",
+      "link": "/#about-me"
+    },
+    {
+      "name": "Technologies",
+      "link": "/#tech-header"
+    },
+    {
+      "name": "Resumé",
+      "link": "/resume"
+    },
+    {
+      "name": "Contact Me",
+      "link": "/contactMe"
+    },
+    {
+      "name": "Portfolio",
+      "link": "/portfolio"
+    }
+  ],
+  "aboutMe": [
+    { "imagesrc": "./imgs/rv.jpg" },
 
-        {
-            "description": "Hi! 👋 I'm Rishabh Verma. Welcome to my website. I have <span class='text-highlight'>2️ years</span> of experience in <span class='text-highlight'>website development</span> at Sapient, Bangalore and Gurgaon, India 👨‍💻. I'm currently doing my <span class='text-highlight'>Master's in IT</span> course at UNSW, Sydney."
-        }
-    ],
-    "technologies": [
-        {
-            "name": "D3",
-            "value": "85"
-        },
-        {
-            "name": "CSS",
-            "value": "90"
-        },
-        {
-            "name": "JS",
-            "value": "95"
-        },
-        {
-            "name": "jQuery",
-            "value": "80"
-        },
-        {
-            "name": "Python",
-            "value": "90"
-        },
-        {
-            "name": "ReactJS",
-            "value": "95"
-        }
-    ],
-    "timeline": [
-        {
-            "year": "2011",
-            "description": "Graduated from High School."
-        },
-        {
-            "year": "2015",
-            "description": "Graduated from RV College of Engineering Bangalore."
-        },
-        {
-            "year": "2015",
-            "description": "Started Job as a Front End Developer with Sapient, Bangalore."
-        },
-        {
-            "year": "2016",
-            "description": "Moved to Gurgaon, India."
-        },
-        {
-            "year": "2017-Present",
-            "description": "Started studying at UNSW, Sydney."
-        }
-    ],
-    "contactMe": [
-        {
-            "link": "https://www.facebook.com/rishabh.verma.35",
-            "imageSrc": "./imgs/facebook.svg",
-            "name": "fb"
-        },
-        {
-            "link": "https://www.twitter.com/rish2806",
-            "imageSrc": "./imgs/twitter.svg",
-            "name": "twitter"
-        },
-        {
-            "link": "https://www.instagram.com/rishver",
-            "imageSrc": "./imgs/instagram.svg",
-            "name": "instagram"
-        },
-        {
-            "link": "https://github.com/rishabhverma28",
-            "imageSrc": "./imgs/github.svg",
-            "name": "github"
-        },
-        {
-            "link": "https://www.linkedin.com/in/rishabhverma28",
-            "imageSrc": "./imgs/linkedin.svg",
-            "name": "linkedin"
-        }
-    ],
-    "availability": true
+    {
+      "description": "Hi! 👋 I'm Rishabh Verma. Welcome to my website. I have <span class='text-highlight'>2️ years</span> of experience in <span class='text-highlight'>website development</span> at Sapient, Bangalore and Gurgaon, India 👨‍💻. I recently completed my <span class='text-highlight'>Master's in IT</span> course at UNSW, Sydney."
+    }
+  ],
+  "technologies": [
+    {
+      "name": "D3",
+      "value": "85"
+    },
+    {
+      "name": "CSS",
+      "value": "90"
+    },
+    {
+      "name": "JS",
+      "value": "95"
+    },
+    {
+      "name": "jQuery",
+      "value": "80"
+    },
+    {
+      "name": "Python",
+      "value": "90"
+    },
+    {
+      "name": "ReactJS",
+      "value": "95"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2011",
+      "description": "Graduated from High School."
+    },
+    {
+      "year": "2015",
+      "description": "Graduated from RV College of Engineering Bangalore."
+    },
+    {
+      "year": "2015",
+      "description": "Started Job as a Front End Developer with Sapient, Bangalore."
+    },
+    {
+      "year": "2016",
+      "description": "Moved to Gurgaon, India."
+    },
+    {
+      "year": "2017",
+      "description": "Started studying at UNSW, Sydney."
+    },
+    {
+      "year": "2019",
+      "description": "Graduated from UNSW, Sydney."
+    }
+  ],
+  "contactMe": [
+    {
+      "link": "https://www.facebook.com/rishabh.verma.35",
+      "imageSrc": "./imgs/facebook.svg",
+      "name": "fb"
+    },
+    {
+      "link": "https://www.twitter.com/rish2806",
+      "imageSrc": "./imgs/twitter.svg",
+      "name": "twitter"
+    },
+    {
+      "link": "https://www.instagram.com/rishver",
+      "imageSrc": "./imgs/instagram.svg",
+      "name": "instagram"
+    },
+    {
+      "link": "https://github.com/rishabhverma28",
+      "imageSrc": "./imgs/github.svg",
+      "name": "github"
+    },
+    {
+      "link": "https://www.linkedin.com/in/rishabhverma28",
+      "imageSrc": "./imgs/linkedin.svg",
+      "name": "linkedin"
+    }
+  ],
+  "availability": true
 }
